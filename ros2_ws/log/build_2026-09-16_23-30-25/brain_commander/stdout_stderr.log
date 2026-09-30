@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target commander_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/commander_node.dir/src/commander_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable commander_node[0m
+[100%] Built target commander_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/package_run_dependencies/brain_commander
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/parent_prefix_path/brain_commander
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/packages/brain_commander
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.xml

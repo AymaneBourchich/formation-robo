@@ -1,0 +1,21 @@
+[0.508s] Invoking command in '/home/ubuntu/ros2_ws/src/env_check': PYTHONPATH=/home/ubuntu/ros2_ws/build/env_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_check build --build-base /home/ubuntu/ros2_ws/build/env_check/build install --record /home/ubuntu/ros2_ws/build/env_check/install.log --install-scripts $base/lib/env_check --single-version-externally-managed install_data
+[0.656s] running egg_info
+[0.657s] writing ../../build/env_check/env_check.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/env_check/env_check.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/env_check/env_check.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/env_check/env_check.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/env_check/env_check.egg-info/top_level.txt
+[0.658s] reading manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'
+[0.659s] writing manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.659s] running install
+[0.659s] running install_lib
+[0.659s] running install_data
+[0.659s] running install_egg_info
+[0.660s] removing '/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check-0.0.1-py3.10.egg-info' (and everything under it)
+[0.661s] Copying ../../build/env_check/env_check.egg-info to /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check-0.0.1-py3.10.egg-info
+[0.661s] running install_scripts
+[0.674s] Installing circle_mover script to /home/ubuntu/ros2_ws/install/env_check/lib/env_check
+[0.675s] writing list of installed files to '/home/ubuntu/ros2_ws/build/env_check/install.log'
+[0.689s] Invoked command in '/home/ubuntu/ros2_ws/src/env_check' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/env_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_check build --build-base /home/ubuntu/ros2_ws/build/env_check/build install --record /home/ubuntu/ros2_ws/build/env_check/install.log --install-scripts $base/lib/env_check --single-version-externally-managed install_data

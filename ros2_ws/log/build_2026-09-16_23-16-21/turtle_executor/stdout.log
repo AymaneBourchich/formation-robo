@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_executor/turtle_executor.egg-info
+writing ../../build/turtle_executor/turtle_executor.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_executor/turtle_executor.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_executor/turtle_executor.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_executor/turtle_executor.egg-info/requires.txt
+writing top-level names to ../../build/turtle_executor/turtle_executor.egg-info/top_level.txt
+writing manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/turtle_executor/build
+creating /home/ubuntu/ros2_ws/build/turtle_executor/build/lib
+creating /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor
+copying turtle_executor/__init__.py -> /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor
+copying turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor
+copying /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor/__init__.py -> /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor
+copying /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor
+byte-compiling /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor/executor_node.py to executor_node.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index
+creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index/packages
+copying resource/turtle_executor -> /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/turtle_executor/share/turtle_executor
+running install_egg_info
+Copying ../../build/turtle_executor/turtle_executor.egg-info to /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor-0.0.1-py3.10.egg-info
+running install_scripts
+Installing executor_node script to /home/ubuntu/ros2_ws/install/turtle_executor/lib/turtle_executor
+writing list of installed files to '/home/ubuntu/ros2_ws/build/turtle_executor/install.log'

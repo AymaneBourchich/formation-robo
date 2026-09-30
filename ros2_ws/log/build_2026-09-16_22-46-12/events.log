@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (-) JobUnselected: {'identifier': 'brain_commander'}
+[0.000227] (-) JobUnselected: {'identifier': 'trajectory_interfaces'}
+[0.000243] (-) JobUnselected: {'identifier': 'turtle_executor'}
+[0.000259] (env_check) JobQueued: {'identifier': 'env_check', 'dependencies': OrderedDict()}
+[0.001042] (env_check) JobStarted: {'identifier': 'env_check'}
+[0.099783] (-) TimerEvent: {}
+[0.200215] (-) TimerEvent: {}
+[0.300589] (-) TimerEvent: {}
+[0.400956] (-) TimerEvent: {}
+[0.501404] (-) TimerEvent: {}
+[0.601822] (-) TimerEvent: {}
+[0.604575] (env_check) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/env_check', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/env_check/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/env_check/install.log', '--install-scripts', '$base/lib/env_check', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/env_check', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33554438'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/env_check'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/env_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.701964] (-) TimerEvent: {}
+[0.802506] (-) TimerEvent: {}
+[0.853991] (env_check) StdoutLine: {'line': b'running egg_info\n'}
+[0.854735] (env_check) StdoutLine: {'line': b'creating ../../build/env_check/env_check.egg-info\n'}
+[0.855071] (env_check) StdoutLine: {'line': b'writing ../../build/env_check/env_check.egg-info/PKG-INFO\n'}
+[0.855160] (env_check) StdoutLine: {'line': b'writing dependency_links to ../../build/env_check/env_check.egg-info/dependency_links.txt\n'}
+[0.855234] (env_check) StdoutLine: {'line': b'writing entry points to ../../build/env_check/env_check.egg-info/entry_points.txt\n'}
+[0.855302] (env_check) StdoutLine: {'line': b'writing requirements to ../../build/env_check/env_check.egg-info/requires.txt\n'}
+[0.855574] (env_check) StdoutLine: {'line': b'writing top-level names to ../../build/env_check/env_check.egg-info/top_level.txt\n'}
+[0.855720] (env_check) StdoutLine: {'line': b"writing manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'\n"}
+[0.856919] (env_check) StdoutLine: {'line': b"reading manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'\n"}
+[0.857684] (env_check) StdoutLine: {'line': b"writing manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'\n"}
+[0.857859] (env_check) StdoutLine: {'line': b'running build\n'}
+[0.858028] (env_check) StdoutLine: {'line': b'running build_py\n'}
+[0.858108] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/env_check/build\n'}
+[0.858176] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/env_check/build/lib\n'}
+[0.858244] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/env_check/build/lib/env_check\n'}
+[0.858317] (env_check) StdoutLine: {'line': b'copying env_check/__init__.py -> /home/ubuntu/ros2_ws/build/env_check/build/lib/env_check\n'}
+[0.858395] (env_check) StdoutLine: {'line': b'copying env_check/circle_mover.py -> /home/ubuntu/ros2_ws/build/env_check/build/lib/env_check\n'}
+[0.858525] (env_check) StdoutLine: {'line': b'running install\n'}
+[0.858630] (env_check) StdoutLine: {'line': b'running install_lib\n'}
+[0.859372] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check\n'}
+[0.859465] (env_check) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/env_check/build/lib/env_check/__init__.py -> /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check\n'}
+[0.859582] (env_check) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/env_check/build/lib/env_check/circle_mover.py -> /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check\n'}
+[0.860056] (env_check) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check/__init__.py to __init__.cpython-310.pyc\n'}
+[0.860275] (env_check) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check/circle_mover.py to circle_mover.cpython-310.pyc\n'}
+[0.860684] (env_check) StdoutLine: {'line': b'running install_data\n'}
+[0.861025] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/env_check/share/ament_index\n'}
+[0.861188] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/env_check/share/ament_index/resource_index\n'}
+[0.861270] (env_check) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/env_check/share/ament_index/resource_index/packages\n'}
+[0.861339] (env_check) StdoutLine: {'line': b'copying resource/env_check -> /home/ubuntu/ros2_ws/install/env_check/share/ament_index/resource_index/packages\n'}
+[0.861404] (env_check) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/env_check/share/env_check\n'}
+[0.861471] (env_check) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.863087] (env_check) StdoutLine: {'line': b'Copying ../../build/env_check/env_check.egg-info to /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check-0.0.1-py3.10.egg-info\n'}
+[0.863838] (env_check) StdoutLine: {'line': b'running install_scripts\n'}
+[0.887149] (env_check) StdoutLine: {'line': b'Installing circle_mover script to /home/ubuntu/ros2_ws/install/env_check/lib/env_check\n'}
+[0.887629] (env_check) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/env_check/install.log'\n"}
+[0.902639] (-) TimerEvent: {}
+[0.912866] (env_check) CommandEnded: {'returncode': 0}
+[0.930167] (env_check) JobEnded: {'identifier': 'env_check', 'rc': 0}
+[0.931091] (-) EventReactorShutdown: {}

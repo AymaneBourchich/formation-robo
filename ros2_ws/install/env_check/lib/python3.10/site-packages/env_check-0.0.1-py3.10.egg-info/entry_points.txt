@@ -1,0 +1,3 @@
+[console_scripts]
+circle_mover = env_check.circle_mover:main
+

@@ -1,0 +1,24 @@
+[0.656s] Invoking command in '/home/ubuntu/ros2_ws/src/turtle_executor': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander PYTHONPATH=/home/ubuntu/ros2_ws/build/turtle_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_executor build --build-base /home/ubuntu/ros2_ws/build/turtle_executor/build install --record /home/ubuntu/ros2_ws/build/turtle_executor/install.log --install-scripts $base/lib/turtle_executor --single-version-externally-managed install_data
+[0.939s] running egg_info
+[0.940s] writing ../../build/turtle_executor/turtle_executor.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/turtle_executor/turtle_executor.egg-info/dependency_links.txt
+[0.940s] writing entry points to ../../build/turtle_executor/turtle_executor.egg-info/entry_points.txt
+[0.940s] writing requirements to ../../build/turtle_executor/turtle_executor.egg-info/requires.txt
+[0.941s] writing top-level names to ../../build/turtle_executor/turtle_executor.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.944s] copying turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor
+[0.944s] running install
+[0.944s] running install_lib
+[0.944s] copying /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor
+[0.945s] byte-compiling /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor/executor_node.py to executor_node.cpython-310.pyc
+[0.945s] running install_data
+[0.946s] running install_egg_info
+[0.948s] removing '/home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor-0.0.1-py3.10.egg-info' (and everything under it)
+[0.948s] Copying ../../build/turtle_executor/turtle_executor.egg-info to /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor-0.0.1-py3.10.egg-info
+[0.949s] running install_scripts
+[0.971s] Installing executor_node script to /home/ubuntu/ros2_ws/install/turtle_executor/lib/turtle_executor
+[0.971s] writing list of installed files to '/home/ubuntu/ros2_ws/build/turtle_executor/install.log'
+[1.001s] Invoked command in '/home/ubuntu/ros2_ws/src/turtle_executor' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander PYTHONPATH=/home/ubuntu/ros2_ws/build/turtle_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_executor build --build-base /home/ubuntu/ros2_ws/build/turtle_executor/build install --record /home/ubuntu/ros2_ws/build/turtle_executor/install.log --install-scripts $base/lib/turtle_executor --single-version-externally-managed install_data

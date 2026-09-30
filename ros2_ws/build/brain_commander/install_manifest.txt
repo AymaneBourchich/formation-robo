@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node
+/home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/package_run_dependencies/brain_commander
+/home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/parent_prefix_path/brain_commander
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.sh
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.dsv
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.bash
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.sh
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.zsh
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.dsv
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.dsv
+/home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/packages/brain_commander
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig.cmake
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig-version.cmake
+/home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.xml

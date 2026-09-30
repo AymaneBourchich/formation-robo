@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "trajectory_interfaces__rs",
+		"source" : "/home/ubuntu/ros2_ws/build/trajectory_interfaces/trajectory_interfaces__rs"
+	}
+}

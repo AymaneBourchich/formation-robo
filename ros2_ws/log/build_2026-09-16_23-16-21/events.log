@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (env_check) JobQueued: {'identifier': 'env_check', 'dependencies': OrderedDict()}
+[0.000491] (trajectory_interfaces) JobQueued: {'identifier': 'trajectory_interfaces', 'dependencies': OrderedDict()}
+[0.000545] (brain_commander) JobQueued: {'identifier': 'brain_commander', 'dependencies': OrderedDict([('trajectory_interfaces', '/home/ubuntu/ros2_ws/install/trajectory_interfaces')])}
+[0.000592] (turtle_executor) JobQueued: {'identifier': 'turtle_executor', 'dependencies': OrderedDict([('trajectory_interfaces', '/home/ubuntu/ros2_ws/install/trajectory_interfaces')])}
+[0.000633] (trajectory_interfaces) JobStarted: {'identifier': 'trajectory_interfaces'}
+[0.006083] (env_check) JobStarted: {'identifier': 'env_check'}
+[0.011966] (trajectory_interfaces) JobProgress: {'identifier': 'trajectory_interfaces', 'progress': 'cmake'}
+[0.012322] (trajectory_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/trajectory_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/trajectory_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/trajectory_interfaces', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/trajectory_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.084084] (trajectory_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099282] (-) TimerEvent: {}
+[0.151598] (trajectory_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.160612] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199458] (-) TimerEvent: {}
+[0.257850] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.268298] (trajectory_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.268571] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.269103] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.273198] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300846] (-) TimerEvent: {}
+[0.384799] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.397243] (trajectory_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.397578] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.398452] (trajectory_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.400925] (-) TimerEvent: {}
+[0.403776] (trajectory_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501079] (-) TimerEvent: {}
+[0.601622] (-) TimerEvent: {}
+[0.642541] (trajectory_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.658101] (env_check) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/env_check', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/env_check/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/env_check/install.log', '--install-scripts', '$base/lib/env_check', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/env_check', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/env_check'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/env_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.701797] (-) TimerEvent: {}
+[0.760530] (trajectory_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.764879] (trajectory_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.771755] (trajectory_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.801941] (-) TimerEvent: {}
+[0.818562] (trajectory_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902107] (-) TimerEvent: {}
+[0.906683] (env_check) StdoutLine: {'line': b'running egg_info\n'}
+[0.907522] (env_check) StdoutLine: {'line': b'writing ../../build/env_check/env_check.egg-info/PKG-INFO\n'}
+[0.907702] (env_check) StdoutLine: {'line': b'writing dependency_links to ../../build/env_check/env_check.egg-info/dependency_links.txt\n'}
+[0.908015] (env_check) StdoutLine: {'line': b'writing entry points to ../../build/env_check/env_check.egg-info/entry_points.txt\n'}
+[0.908219] (env_check) StdoutLine: {'line': b'writing requirements to ../../build/env_check/env_check.egg-info/requires.txt\n'}
+[0.908336] (env_check) StdoutLine: {'line': b'writing top-level names to ../../build/env_check/env_check.egg-info/top_level.txt\n'}
+[0.909928] (env_check) StdoutLine: {'line': b"reading manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'\n"}
+[0.910677] (env_check) StdoutLine: {'line': b"writing manifest file '../../build/env_check/env_check.egg-info/SOURCES.txt'\n"}
+[0.910856] (env_check) StdoutLine: {'line': b'running build\n'}
+[0.910993] (env_check) StdoutLine: {'line': b'running build_py\n'}
+[0.911329] (env_check) StdoutLine: {'line': b'running install\n'}
+[0.911511] (env_check) StdoutLine: {'line': b'running install_lib\n'}
+[0.912695] (env_check) StdoutLine: {'line': b'running install_data\n'}
+[0.913060] (env_check) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.914600] (env_check) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[0.915338] (env_check) StdoutLine: {'line': b'Copying ../../build/env_check/env_check.egg-info to /home/ubuntu/ros2_ws/install/env_check/lib/python3.10/site-packages/env_check-0.0.1-py3.10.egg-info\n'}
+[0.916891] (env_check) StdoutLine: {'line': b'running install_scripts\n'}
+[0.945809] (env_check) StdoutLine: {'line': b'Installing circle_mover script to /home/ubuntu/ros2_ws/install/env_check/lib/env_check\n'}
+[0.946382] (env_check) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/env_check/install.log'\n"}
+[0.973177] (env_check) CommandEnded: {'returncode': 0}
+[0.985404] (env_check) JobEnded: {'identifier': 'env_check', 'rc': 0}
+[1.002230] (-) TimerEvent: {}
+[1.102614] (-) TimerEvent: {}
+[1.155989] (trajectory_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.202756] (-) TimerEvent: {}
+[1.303184] (-) TimerEvent: {}
+[1.397637] (trajectory_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403272] (-) TimerEvent: {}
+[1.503645] (-) TimerEvent: {}
+[1.604052] (-) TimerEvent: {}
+[1.704590] (-) TimerEvent: {}
+[1.723435] (trajectory_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.754132] (trajectory_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.756257] (trajectory_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.794286] (trajectory_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.794845] (trajectory_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.794952] (trajectory_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.795019] (trajectory_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.804654] (-) TimerEvent: {}
+[1.821221] (trajectory_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.904884] (-) TimerEvent: {}
+[1.948556] (trajectory_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.977434] (trajectory_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.988032] (trajectory_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/trajectory_interfaces\n'}
+[2.000657] (trajectory_interfaces) CommandEnded: {'returncode': 0}
+[2.004659] (trajectory_interfaces) JobProgress: {'identifier': 'trajectory_interfaces', 'progress': 'build'}
+[2.004772] (trajectory_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/trajectory_interfaces', '--', '-j22', '-l22'], 'cwd': '/home/ubuntu/ros2_ws/build/trajectory_interfaces', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/trajectory_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.005194] (-) TimerEvent: {}
+[2.060131] (trajectory_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.072419] (trajectory_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.072995] (trajectory_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.084272] (trajectory_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_trajectory_interfaces\n'}
+[2.105380] (-) TimerEvent: {}
+[2.205914] (-) TimerEvent: {}
+[2.306419] (-) TimerEvent: {}
+[2.345000] (trajectory_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.345464] (trajectory_interfaces) StdoutLine: {'line': b'creating trajectory_interfaces.egg-info\n'}
+[2.345797] (trajectory_interfaces) StdoutLine: {'line': b'writing trajectory_interfaces.egg-info/PKG-INFO\n'}
+[2.345931] (trajectory_interfaces) StdoutLine: {'line': b'writing dependency_links to trajectory_interfaces.egg-info/dependency_links.txt\n'}
+[2.346051] (trajectory_interfaces) StdoutLine: {'line': b'writing top-level names to trajectory_interfaces.egg-info/top_level.txt\n'}
+[2.346200] (trajectory_interfaces) StdoutLine: {'line': b"writing manifest file 'trajectory_interfaces.egg-info/SOURCES.txt'\n"}
+[2.348390] (trajectory_interfaces) StdoutLine: {'line': b"reading manifest file 'trajectory_interfaces.egg-info/SOURCES.txt'\n"}
+[2.348916] (trajectory_interfaces) StdoutLine: {'line': b"writing manifest file 'trajectory_interfaces.egg-info/SOURCES.txt'\n"}
+[2.358854] (trajectory_interfaces) StdoutLine: {'line': b'[  9%] Built target trajectory_interfaces__rs\n'}
+[2.383193] (trajectory_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_trajectory_interfaces_egg\n'}
+[2.389988] (trajectory_interfaces) StdoutLine: {'line': b'[  9%] Built target trajectory_interfaces__cpp\n'}
+[2.391148] (trajectory_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_generator_c.dir/rosidl_generator_c/trajectory_interfaces/msg/detail/trajectory_command__functions.c.o\x1b[0m\n'}
+[2.403587] (trajectory_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.405566] (trajectory_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.405881] (trajectory_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.406488] (-) TimerEvent: {}
+[2.444486] (trajectory_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libtrajectory_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.496815] (trajectory_interfaces) StdoutLine: {'line': b'[ 25%] Built target trajectory_interfaces__rosidl_generator_c\n'}
+[2.506640] (-) TimerEvent: {}
+[2.510658] (trajectory_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.510959] (trajectory_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.511119] (trajectory_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.606829] (-) TimerEvent: {}
+[2.675566] (trajectory_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_interfaces/msg/trajectory_command__type_support.cpp.o\x1b[0m\n'}
+[2.694663] (trajectory_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_interfaces/msg/detail/dds_fastrtps/trajectory_command__type_support.cpp.o\x1b[0m\n'}
+[2.695719] (trajectory_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_interfaces/msg/detail/trajectory_command__type_support.cpp.o\x1b[0m\n'}
+[2.706949] (-) TimerEvent: {}
+[2.804494] (trajectory_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_interfaces/msg/trajectory_command__type_support.cpp.o\x1b[0m\n'}
+[2.807182] (-) TimerEvent: {}
+[2.846097] (trajectory_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_interfaces/msg/detail/trajectory_command__type_support_c.cpp.o\x1b[0m\n'}
+[2.848044] (trajectory_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_interfaces/msg/detail/trajectory_command__type_support.c.o\x1b[0m\n'}
+[2.850706] (trajectory_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.897153] (trajectory_interfaces) StdoutLine: {'line': b'[ 56%] Built target trajectory_interfaces__rosidl_typesupport_c\n'}
+[2.898431] (trajectory_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libtrajectory_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.907338] (-) TimerEvent: {}
+[2.940407] (trajectory_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.946467] (trajectory_interfaces) StdoutLine: {'line': b'[ 62%] Built target trajectory_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.994870] (trajectory_interfaces) StdoutLine: {'line': b'[ 62%] Built target trajectory_interfaces__rosidl_typesupport_cpp\n'}
+[3.007483] (-) TimerEvent: {}
+[3.054443] (trajectory_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.076445] (trajectory_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.107658] (-) TimerEvent: {}
+[3.113763] (trajectory_interfaces) StdoutLine: {'line': b'[ 68%] Built target trajectory_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.170138] (trajectory_interfaces) StdoutLine: {'line': b'[ 68%] Built target trajectory_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.189582] (trajectory_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.207755] (-) TimerEvent: {}
+[3.290570] (trajectory_interfaces) StdoutLine: {'line': b'[ 71%] Built target trajectory_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.307879] (-) TimerEvent: {}
+[3.318215] (trajectory_interfaces) StdoutLine: {'line': b'[ 71%] Built target trajectory_interfaces\n'}
+[3.345691] (trajectory_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.408038] (-) TimerEvent: {}
+[3.508497] (-) TimerEvent: {}
+[3.608946] (-) TimerEvent: {}
+[3.709335] (-) TimerEvent: {}
+[3.732835] (trajectory_interfaces) StdoutLine: {'line': b'[ 75%] Built target trajectory_interfaces__py\n'}
+[3.758189] (trajectory_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_generator_py.dir/rosidl_generator_py/trajectory_interfaces/msg/_trajectory_command_s.c.o\x1b[0m\n'}
+[3.809496] (-) TimerEvent: {}
+[3.877035] (trajectory_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_interfaces/libtrajectory_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.909654] (-) TimerEvent: {}
+[3.932451] (trajectory_interfaces) StdoutLine: {'line': b'[ 81%] Built target trajectory_interfaces__rosidl_generator_py\n'}
+[3.961290] (trajectory_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.961718] (trajectory_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.961868] (trajectory_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/trajectory_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.009835] (-) TimerEvent: {}
+[4.059847] (trajectory_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.071156] (trajectory_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.077548] (trajectory_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.105692] (trajectory_interfaces) StdoutLine: {'line': b'[100%] Built target trajectory_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.109908] (-) TimerEvent: {}
+[4.114722] (trajectory_interfaces) StdoutLine: {'line': b'[100%] Built target trajectory_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.125620] (trajectory_interfaces) StdoutLine: {'line': b'[100%] Built target trajectory_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.142016] (trajectory_interfaces) CommandEnded: {'returncode': 0}
+[4.143573] (trajectory_interfaces) JobProgress: {'identifier': 'trajectory_interfaces', 'progress': 'install'}
+[4.155044] (trajectory_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/trajectory_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/trajectory_interfaces', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/trajectory_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.166232] (trajectory_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.166484] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/ament_index/resource_index/rosidl_interfaces/trajectory_interfaces\n'}
+[4.166948] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.167112] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.167210] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.167536] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__type_support.h\n'}
+[4.167639] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__functions.c\n'}
+[4.167706] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__struct.h\n'}
+[4.167768] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__functions.h\n'}
+[4.167830] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/trajectory_command.h\n'}
+[4.167908] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.168202] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/library_path.sh\n'}
+[4.168338] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/library_path.dsv\n'}
+[4.168415] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_generator_c.so\n'}
+[4.168679] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.168800] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.168903] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.169067] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.169160] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__rosidl_typesupport_fastrtps_c.h\n'}
+[4.169301] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.169431] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.169551] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.169665] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.169751] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.169855] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.169938] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__rosidl_typesupport_introspection_c.h\n'}
+[4.170024] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__type_support.c\n'}
+[4.170108] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.170208] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.170311] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.170396] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_c.so\n'}
+[4.170528] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.170670] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.170785] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.170970] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.171072] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__type_support.hpp\n'}
+[4.171147] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__struct.hpp\n'}
+[4.171293] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__traits.hpp\n'}
+[4.171362] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__builder.hpp\n'}
+[4.171523] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/trajectory_command.hpp\n'}
+[4.171630] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.171693] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.171754] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.171818] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.172000] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.172080] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.172220] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/dds_fastrtps\n'}
+[4.172283] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.172476] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.172575] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces\n'}
+[4.172636] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg\n'}
+[4.172703] (trajectory_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail\n'}
+[4.172762] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.172947] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/include/trajectory_interfaces/trajectory_interfaces/msg/detail/trajectory_command__type_support.cpp\n'}
+[4.173173] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.173269] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.173367] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.173663] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.173734] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/pythonpath.sh\n'}
+[4.173833] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/pythonpath.dsv\n'}
+[4.174050] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces-0.0.1-py3.10.egg-info\n'}
+[4.174231] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[4.174319] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[4.174379] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[4.174460] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[4.174566] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces\n'}
+[4.174739] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.174891] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.175012] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.175121] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/__init__.py\n'}
+[4.175225] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/libtrajectory_interfaces__rosidl_generator_py.so\n'}
+[4.175323] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg\n'}
+[4.175424] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg/_trajectory_command.py\n'}
+[4.175519] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg/_trajectory_command_s.c\n'}
+[4.175640] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg/__init__.py\n'}
+[4.175780] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.175897] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.176034] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/_trajectory_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.210018] (-) TimerEvent: {}
+[4.221869] (trajectory_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces'...\n"}
+[4.222062] (trajectory_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/__init__.py'...\n"}
+[4.222140] (trajectory_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg'...\n"}
+[4.222201] (trajectory_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg/__init__.py'...\n"}
+[4.222262] (trajectory_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/msg/_trajectory_command.py'...\n"}
+[4.227346] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.227702] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.228081] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.228286] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.228374] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.228754] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages/trajectory_interfaces/trajectory_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.228913] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_generator_py.so\n'}
+[4.229250] (trajectory_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib/libtrajectory_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.229396] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/ament_index/resource_index/rust_packages/trajectory_interfaces\n'}
+[4.229476] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust\n'}
+[4.229565] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/build.rs\n'}
+[4.229835] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/src\n'}
+[4.230022] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/src/msg.rs\n'}
+[4.230101] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/src/lib.rs\n'}
+[4.230165] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/src/msg\n'}
+[4.230233] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/src/msg/rmw.rs\n'}
+[4.230336] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/rust/Cargo.toml\n'}
+[4.230407] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/msg/TrajectoryCommand.idl\n'}
+[4.230513] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/msg/TrajectoryCommand.msg\n'}
+[4.230599] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/ament_index/resource_index/package_run_dependencies/trajectory_interfaces\n'}
+[4.230661] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/ament_index/resource_index/parent_prefix_path/trajectory_interfaces\n'}
+[4.230725] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/ament_prefix_path.sh\n'}
+[4.230804] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.230920] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/path.sh\n'}
+[4.231051] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/environment/path.dsv\n'}
+[4.231163] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/local_setup.bash\n'}
+[4.231315] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/local_setup.sh\n'}
+[4.231451] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/local_setup.zsh\n'}
+[4.231540] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/local_setup.dsv\n'}
+[4.231629] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/package.dsv\n'}
+[4.231790] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/ament_index/resource_index/packages/trajectory_interfaces\n'}
+[4.231980] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.232303] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.232466] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.232584] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.232829] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.233005] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.233114] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.233210] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.233297] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.233378] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.233498] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.233717] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.233856] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.234011] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.234169] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.234313] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.234474] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/export_trajectory_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.234572] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.234692] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.234829] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.234967] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.235100] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.235233] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.235377] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.235516] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[4.235669] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfacesConfig.cmake\n'}
+[4.235777] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake/trajectory_interfacesConfig-version.cmake\n'}
+[4.235905] (trajectory_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/package.xml\n'}
+[4.239424] (trajectory_interfaces) CommandEnded: {'returncode': 0}
+[4.260867] (trajectory_interfaces) JobEnded: {'identifier': 'trajectory_interfaces', 'rc': 0}
+[4.262107] (brain_commander) JobStarted: {'identifier': 'brain_commander'}
+[4.265935] (turtle_executor) JobStarted: {'identifier': 'turtle_executor'}
+[4.271883] (brain_commander) JobProgress: {'identifier': 'brain_commander', 'progress': 'cmake'}
+[4.273843] (brain_commander) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/brain_commander', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/brain_commander'], 'cwd': '/home/ubuntu/ros2_ws/build/brain_commander', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/brain_commander'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.310164] (-) TimerEvent: {}
+[4.352306] (brain_commander) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.410314] (-) TimerEvent: {}
+[4.429899] (brain_commander) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.440466] (brain_commander) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.510461] (-) TimerEvent: {}
+[4.535777] (brain_commander) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.545383] (brain_commander) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.545916] (brain_commander) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.546140] (brain_commander) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.550384] (brain_commander) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.610608] (-) TimerEvent: {}
+[4.658899] (brain_commander) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.670062] (brain_commander) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.670351] (brain_commander) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.670979] (brain_commander) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.674730] (brain_commander) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.710714] (-) TimerEvent: {}
+[4.811100] (-) TimerEvent: {}
+[4.874774] (brain_commander) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.906167] (turtle_executor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_executor', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/turtle_executor/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/turtle_executor/install.log', '--install-scripts', '$base/lib/turtle_executor', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/turtle_executor', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/turtle_executor'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/turtle_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces')]), 'shell': False}
+[4.911189] (-) TimerEvent: {}
+[4.996643] (brain_commander) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.011315] (-) TimerEvent: {}
+[5.058598] (brain_commander) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.066218] (brain_commander) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.079919] (brain_commander) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.093601] (brain_commander) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.110358] (brain_commander) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.111401] (-) TimerEvent: {}
+[5.156933] (brain_commander) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.159591] (brain_commander) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.159758] (turtle_executor) StdoutLine: {'line': b'running egg_info\n'}
+[5.160315] (turtle_executor) StdoutLine: {'line': b'creating ../../build/turtle_executor/turtle_executor.egg-info\n'}
+[5.160529] (turtle_executor) StdoutLine: {'line': b'writing ../../build/turtle_executor/turtle_executor.egg-info/PKG-INFO\n'}
+[5.160867] (turtle_executor) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_executor/turtle_executor.egg-info/dependency_links.txt\n'}
+[5.161016] (turtle_executor) StdoutLine: {'line': b'writing entry points to ../../build/turtle_executor/turtle_executor.egg-info/entry_points.txt\n'}
+[5.161332] (turtle_executor) StdoutLine: {'line': b'writing requirements to ../../build/turtle_executor/turtle_executor.egg-info/requires.txt\n'}
+[5.161480] (turtle_executor) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_executor/turtle_executor.egg-info/top_level.txt\n'}
+[5.161572] (turtle_executor) StdoutLine: {'line': b"writing manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'\n"}
+[5.162632] (turtle_executor) StdoutLine: {'line': b"reading manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'\n"}
+[5.163371] (turtle_executor) StdoutLine: {'line': b"writing manifest file '../../build/turtle_executor/turtle_executor.egg-info/SOURCES.txt'\n"}
+[5.163531] (turtle_executor) StdoutLine: {'line': b'running build\n'}
+[5.163618] (turtle_executor) StdoutLine: {'line': b'running build_py\n'}
+[5.163904] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/turtle_executor/build\n'}
+[5.164055] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/turtle_executor/build/lib\n'}
+[5.164130] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor\n'}
+[5.164463] (turtle_executor) StdoutLine: {'line': b'copying turtle_executor/__init__.py -> /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor\n'}
+[5.164581] (turtle_executor) StdoutLine: {'line': b'copying turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor\n'}
+[5.164652] (turtle_executor) StdoutLine: {'line': b'running install\n'}
+[5.164717] (turtle_executor) StdoutLine: {'line': b'running install_lib\n'}
+[5.165019] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor\n'}
+[5.165171] (turtle_executor) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor/__init__.py -> /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor\n'}
+[5.165446] (turtle_executor) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/turtle_executor/build/lib/turtle_executor/executor_node.py -> /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor\n'}
+[5.165628] (turtle_executor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor/__init__.py to __init__.cpython-310.pyc\n'}
+[5.165911] (turtle_executor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor/executor_node.py to executor_node.cpython-310.pyc\n'}
+[5.166529] (turtle_executor) StdoutLine: {'line': b'running install_data\n'}
+[5.166896] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index\n'}
+[5.167244] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index\n'}
+[5.167328] (turtle_executor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index/packages\n'}
+[5.167395] (turtle_executor) StdoutLine: {'line': b'copying resource/turtle_executor -> /home/ubuntu/ros2_ws/install/turtle_executor/share/ament_index/resource_index/packages\n'}
+[5.167455] (turtle_executor) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/turtle_executor/share/turtle_executor\n'}
+[5.167528] (turtle_executor) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.169436] (turtle_executor) StdoutLine: {'line': b'Copying ../../build/turtle_executor/turtle_executor.egg-info to /home/ubuntu/ros2_ws/install/turtle_executor/lib/python3.10/site-packages/turtle_executor-0.0.1-py3.10.egg-info\n'}
+[5.170336] (turtle_executor) StdoutLine: {'line': b'running install_scripts\n'}
+[5.196386] (turtle_executor) StdoutLine: {'line': b'Installing executor_node script to /home/ubuntu/ros2_ws/install/turtle_executor/lib/turtle_executor\n'}
+[5.196959] (turtle_executor) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/turtle_executor/install.log'\n"}
+[5.211598] (-) TimerEvent: {}
+[5.223089] (turtle_executor) CommandEnded: {'returncode': 0}
+[5.229329] (turtle_executor) JobEnded: {'identifier': 'turtle_executor', 'rc': 0}
+[5.280575] (brain_commander) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.311836] (-) TimerEvent: {}
+[5.334408] (brain_commander) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.412001] (-) TimerEvent: {}
+[5.415007] (brain_commander) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.427191] (brain_commander) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.512173] (-) TimerEvent: {}
+[5.530091] (brain_commander) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.530915] (brain_commander) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.612331] (-) TimerEvent: {}
+[5.635516] (brain_commander) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.637352] (brain_commander) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.708442] (brain_commander) StdoutLine: {'line': b'-- Found trajectory_interfaces: 0.0.1 (/home/ubuntu/ros2_ws/install/trajectory_interfaces/share/trajectory_interfaces/cmake)\n'}
+[5.712408] (-) TimerEvent: {}
+[5.788945] (brain_commander) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.798744] (brain_commander) StdoutLine: {'line': b'-- Generating done\n'}
+[5.802315] (brain_commander) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/brain_commander\n'}
+[5.812557] (-) TimerEvent: {}
+[5.814297] (brain_commander) CommandEnded: {'returncode': 0}
+[5.818095] (brain_commander) JobProgress: {'identifier': 'brain_commander', 'progress': 'build'}
+[5.818151] (brain_commander) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/brain_commander', '--', '-j22', '-l22'], 'cwd': '/home/ubuntu/ros2_ws/build/brain_commander', 'env': OrderedDict([('VNCDESKTOP', '0323ae6d7c21:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '0323ae6d7c21'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-at8ue1zZO1,guid=65ac55b363636105dc1409136aab1b5d'), ('COLORTERM', 'truecolor'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-0A0BV3'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '33566403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/0323ae6d7c21:@/tmp/.ICE-unix/87,unix/0323ae6d7c21:/tmp/.ICE-unix/87'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-0A0BV3/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/brain_commander'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.890947] (brain_commander) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/commander_node.dir/src/commander_node.cpp.o\x1b[0m\n'}
+[5.912657] (-) TimerEvent: {}
+[6.013055] (-) TimerEvent: {}
+[6.113582] (-) TimerEvent: {}
+[6.214064] (-) TimerEvent: {}
+[6.314650] (-) TimerEvent: {}
+[6.415261] (-) TimerEvent: {}
+[6.515790] (-) TimerEvent: {}
+[6.616294] (-) TimerEvent: {}
+[6.716793] (-) TimerEvent: {}
+[6.817293] (-) TimerEvent: {}
+[6.917807] (-) TimerEvent: {}
+[7.018324] (-) TimerEvent: {}
+[7.118837] (-) TimerEvent: {}
+[7.219323] (-) TimerEvent: {}
+[7.319991] (-) TimerEvent: {}
+[7.420491] (-) TimerEvent: {}
+[7.520987] (-) TimerEvent: {}
+[7.621478] (-) TimerEvent: {}
+[7.722004] (-) TimerEvent: {}
+[7.822527] (-) TimerEvent: {}
+[7.923009] (-) TimerEvent: {}
+[8.023489] (-) TimerEvent: {}
+[8.124030] (-) TimerEvent: {}
+[8.224578] (-) TimerEvent: {}
+[8.325076] (-) TimerEvent: {}
+[8.422875] (brain_commander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCommanderNode::CommanderNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.423262] (brain_commander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.423360] (brain_commander) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(100ms, std::bind(&CommanderNode::timer_callback, this));\n'}
+[8.423441] (brain_commander) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.423530] (brain_commander) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[8.425157] (-) TimerEvent: {}
+[8.525622] (-) TimerEvent: {}
+[8.626110] (-) TimerEvent: {}
+[8.726652] (-) TimerEvent: {}
+[8.827194] (-) TimerEvent: {}
+[8.927698] (-) TimerEvent: {}
+[8.941804] (brain_commander) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/commander_node.dir/build.make:76: CMakeFiles/commander_node.dir/src/commander_node.cpp.o] Error 1\n'}
+[8.942153] (brain_commander) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/commander_node.dir/all] Error 2\n'}
+[8.942475] (brain_commander) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.946376] (brain_commander) CommandEnded: {'returncode': 2}
+[8.955334] (brain_commander) JobEnded: {'identifier': 'brain_commander', 'rc': 2}
+[8.966159] (-) EventReactorShutdown: {}

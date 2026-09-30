@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/ubuntu/ros2_ws/build/brain_commander': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target commander_node[0m
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/commander_node.dir/src/commander_node.cpp.o[0m
+[2.624s] [01m[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:[m[K In member function ‘[01m[Kvoid CommanderNode::timer_callback()[m[K’:
+[2.624s] [01m[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:63:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct trajectory_interfaces::msg::TrajectoryCommand_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear_x[m[K’
+[2.624s]    63 |       message.[01;31m[Klinear_x[m[K = 0.5;
+[2.624s]       |               [01;31m[K^~~~~~~~[m[K
+[2.624s] [01m[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:64:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct trajectory_interfaces::msg::TrajectoryCommand_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular_z[m[K’; did you mean ‘[01m[Kangular_speed[m[K’?
+[2.625s]    64 |       message.[01;31m[Kangular_z[m[K = 0.0;
+[2.625s]       |               [01;31m[K^~~~~~~~~[m[K
+[2.625s]       |               [32m[Kangular_speed[m[K
+[2.625s] [01m[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct trajectory_interfaces::msg::TrajectoryCommand_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear_x[m[K’
+[2.625s]    68 |       message.[01;31m[Klinear_x[m[K = 0.0;
+[2.625s]       |               [01;31m[K^~~~~~~~[m[K
+[2.625s] [01m[K/home/ubuntu/ros2_ws/src/brain_commander/src/commander_node.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct trajectory_interfaces::msg::TrajectoryCommand_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular_z[m[K’; did you mean ‘[01m[Kangular_speed[m[K’?
+[2.625s]    69 |       message.[01;31m[Kangular_z[m[K = 0.5;
+[2.625s]       |               [01;31m[K^~~~~~~~~[m[K
+[2.625s]       |               [32m[Kangular_speed[m[K
+[3.551s] gmake[2]: *** [CMakeFiles/commander_node.dir/build.make:76: CMakeFiles/commander_node.dir/src/commander_node.cpp.o] Error 1
+[3.552s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/commander_node.dir/all] Error 2
+[3.552s] gmake: *** [Makefile:146: all] Error 2
+[3.557s] Invoked command in '/home/ubuntu/ros2_ws/build/brain_commander' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22

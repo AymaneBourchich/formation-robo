@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/ubuntu/ros2_ws/build/brain_commander': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target commander_node[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/commander_node.dir/src/commander_node.cpp.o[0m
+[5.292s] [100%] [32m[1mLinking CXX executable commander_node[0m
+[5.542s] [100%] Built target commander_node
+[5.553s] Invoked command in '/home/ubuntu/ros2_ws/build/brain_commander' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22
+[5.555s] Invoking command in '/home/ubuntu/ros2_ws/build/brain_commander': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/brain_commander
+[5.561s] -- Install configuration: ""
+[5.562s] -- Installing: /home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node
+[5.565s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node" to ""
+[5.565s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/package_run_dependencies/brain_commander
+[5.565s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/parent_prefix_path/brain_commander
+[5.565s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.sh
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.dsv
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.sh
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.dsv
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.bash
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.sh
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.zsh
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.dsv
+[5.566s] -- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.dsv
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/packages/brain_commander
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig.cmake
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig-version.cmake
+[5.566s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.xml
+[5.568s] Invoked command in '/home/ubuntu/ros2_ws/build/brain_commander' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/brain_commander

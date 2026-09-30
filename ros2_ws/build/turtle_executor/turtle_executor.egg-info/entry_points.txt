@@ -1,0 +1,3 @@
+[console_scripts]
+executor_node = turtle_executor.executor_node:main
+

@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/ubuntu/ros2_ws/build/brain_commander': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander:/home/ubuntu/ros2_ws/install/turtle_executor:/home/ubuntu/ros2_ws/install/env_check:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target commander_node[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/commander_node.dir/src/commander_node.cpp.o[0m
+[4.742s] [100%] [32m[1mLinking CXX executable commander_node[0m
+[4.935s] [100%] Built target commander_node
+[4.949s] Invoked command in '/home/ubuntu/ros2_ws/build/brain_commander' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander:/home/ubuntu/ros2_ws/install/turtle_executor:/home/ubuntu/ros2_ws/install/env_check:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/brain_commander -- -j22 -l22
+[4.952s] Invoking command in '/home/ubuntu/ros2_ws/build/brain_commander': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander:/home/ubuntu/ros2_ws/install/turtle_executor:/home/ubuntu/ros2_ws/install/env_check:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/brain_commander
+[4.964s] -- Install configuration: ""
+[4.964s] -- Installing: /home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node
+[4.965s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/brain_commander/lib/brain_commander/commander_node" to ""
+[4.965s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/package_run_dependencies/brain_commander
+[4.965s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/parent_prefix_path/brain_commander
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.sh
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/ament_prefix_path.dsv
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.sh
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/environment/path.dsv
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.bash
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.sh
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.zsh
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/local_setup.dsv
+[4.966s] -- Installing: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.dsv
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/ament_index/resource_index/packages/brain_commander
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig.cmake
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/cmake/brain_commanderConfig-version.cmake
+[4.966s] -- Up-to-date: /home/ubuntu/ros2_ws/install/brain_commander/share/brain_commander/package.xml
+[4.968s] Invoked command in '/home/ubuntu/ros2_ws/build/brain_commander' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/trajectory_interfaces:/home/ubuntu/ros2_ws/install/brain_commander:/home/ubuntu/ros2_ws/install/turtle_executor:/home/ubuntu/ros2_ws/install/env_check:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/brain_commander
